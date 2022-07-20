@@ -131,15 +131,14 @@ input {
   display: flex;
   flex-direction: column;
   background-color: #919098;
-  margin-top: 2rem;
-  width: 100%;
+  margin: 2rem 0;
   border-radius: 15px;
 }
 
 .results .result {
   display: flex;
   justify-content: flex-start;
-  margin: 1rem auto;
+  margin: 1rem auto 0;
   align-items: center;
   width: 80%;
   padding: 1.2rem;
@@ -147,19 +146,25 @@ input {
   background-color: #363636;
 }
 
+.results .result:last-child {
+  margin-bottom: 1rem;
+}
+
 .details {
   width: 70%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .myanime .anime {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 1rem auto;
   align-items: center;
-  width: 80%;
   padding: 1.2rem;
+  width: 80%;
   border-radius: 15px;
   background-color: #363636;
 }
